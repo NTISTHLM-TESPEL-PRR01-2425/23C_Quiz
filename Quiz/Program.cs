@@ -1,2 +1,39 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+Fel();
+
+
+
+
+// string name = "Micke";
+
+// string result = "6" + "4";
+
+// Console.WriteLine(result);
+
+int hp = 100;
+
+hp = hp - 10;
+hp -= 10;
+hp -= 1;
+hp++;
+
+Console.WriteLine($"Du har {hp} hp kvar");
+
+Console.ReadLine();
+
+
+
+static void Fel()
+{
+  Console.WriteLine("""
+  _______   _______  ___            ________  ___      ___  __        _______      ___  
+ /"     "| /"     "||"  |          /"       )|"  \    /"  |/""\      /"      \    |"  | 
+(: ______)(: ______)||  |         (:   \___/  \   \  //  //    \    |:        |   ||  | 
+ \/    |   \/    |  |:  |          \___  \     \\  \/. .//' /\  \   |_____/   )   |:  | 
+ // ___)   // ___)_  \  |___        __/  \\     \.    ////  __'  \   //      /   _|  /  
+(:  (     (:      "|( \_|:  \      /" \   :)     \\   //   /  \\  \ |:  __   \  / |_/ ) 
+ \__/      \_______) \_______)    (_______/       \__/(___/    \___)|__|  \___)(_____/  
+                                                                                        
+""");
+
+}
